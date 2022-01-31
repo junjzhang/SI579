@@ -1,0 +1,26 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: blue;
+}
+
+#avator {
+    margin: auto;
+    display: block;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#contact-me {
+    color: #ff0000;
+}
+
+nav ul li {
+    display: inline;
+}
