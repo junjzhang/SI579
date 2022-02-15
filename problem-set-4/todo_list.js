@@ -5,7 +5,7 @@ function addTask(description, dueTime) {
     : "";
 
   let newTask = document.createElement("li");
-  newTask.innerHTML = `<li>${description}${due}<button class="btn btn-sm btn-outline-danger done" type="button">Done</button></li>`;
+  newTask.innerHTML = `${description}${due}<button class="btn btn-sm btn-outline-danger done" type="button">Done</button>`;
   taskList.appendChild(newTask);
 
   let doneButton = newTask.querySelector(".done");
